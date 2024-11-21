@@ -99,7 +99,7 @@ X_train = X[:150]
 Y_train = X[1:151]
 
 # Define a stacked ESN with two layers of 100 neurons each
-reservoir_sizes = [20, 30, ]
+reservoir_sizes = [50, 50, 50]
 esn_stacked_ip = StackedEchoStateNetworkWithIP(input_size=1, reservoir_sizes=reservoir_sizes, output_size=1)
 esn_stacked_ip.fit(X_train, Y_train)
 
