@@ -1,0 +1,18 @@
+CENTRALIZZATO:
+i parametri di intrinsic plasticity si stabilizzano nel tempo? come cambia rispetto al warm-up
+con e senza intrinsic plasticity (accuracy) - sample by sample
+occupancy + HHAR dataset
+
+grid search degli hyperparameters (tanti!) -> impatto sui risultati e dominio 
+plottare l'out del reservoir prima del readout - sample by sample
+
+
+
+Se l'intrinsic plasticity ha un impatto devastante:
+magari ha senso non farlo sempre
+
+
+-----------------------------------------------------------------------
+
+come varia accuracy rispetto ad intrinsic plasticity
+come varia rispetto a gain ad bias 
